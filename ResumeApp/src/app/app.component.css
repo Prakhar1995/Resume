@@ -1,0 +1,47 @@
+
+
+ ul{
+     display:flex;
+     /* justify-content: space-around; */
+     flex-direction: row;
+     margin: 0px;
+     padding:0px;
+    }
+
+ul a{
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    /* margin-top: 0.5%; */
+    /* border:1px solid crimson; */
+    flex-grow: 1;
+    text-decoration: none;
+    color:white;;
+    padding:5px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size:0.9em;
+}
+ul a:hover{
+    background-color: crimson;
+}
+.active{
+    /* background-color: crimson !important; */
+    border-bottom: solid 1px crimson;
+}
+
+@media (max-width:768px){
+    ul{
+        flex-direction: column;
+    }
+}
+footer{
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer>img{
+    height:50px;
+    width:50px;
+    
+    /* flex-grow: 1; */
+}
