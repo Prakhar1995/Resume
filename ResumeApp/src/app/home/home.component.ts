@@ -4,6 +4,11 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
+  styles: [`
+  :host {
+      flex-grow:1;
+  }
+`]
   
 })
 export class HomeComponent implements OnInit {
