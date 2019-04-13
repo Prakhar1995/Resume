@@ -1,0 +1,22 @@
+
+#Apptext{
+    height: 60vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    }
+    #subText{
+        /* justify-content: center; */
+        /* align-self: flex-start; */
+        font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-size: 70px;
+    }
+#mainText{
+    /* align-self: center; */
+    
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px; 
+}    

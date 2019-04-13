@@ -3,7 +3,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color:  black;
+    background-image: url("./assets/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color:  black; */
+    color:white;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
