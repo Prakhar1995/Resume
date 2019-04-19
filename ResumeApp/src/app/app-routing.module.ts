@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { CreateComponent } from './create/create.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,9 @@ const routes: Routes = [
 },
 {
   path: 'contact', component: ContactComponent 
+},
+{
+  path: 'create', component: CreateComponent 
 }
 ];
 @NgModule({

@@ -4,6 +4,37 @@ body{
     flex-direction: column;
     
 }
+nav >a{
+    text-decoration: none;
+    background-color: crimson;
+
+}
+/* .example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  } */
+  #main{
+      display:flex;
+      flex-direction: row;
+      flex-grow: 1;
+  }
+  #sidebar{
+      height:70vh;
+      display:flex;
+      flex-direction: column;
+      align-self: flex-start;
+      /* justify-content: space-around; */
+      /* flex-grow: 1; */
+      display: none;
+  }
+  #sidebar>a{
+      flex-grow:1;
+      
+  }
  ul{
      display:flex;
      /* justify-content: space-around; */
@@ -20,7 +51,7 @@ ul> a{
     /* border:1px solid crimson; */
     flex-grow: 1;
     text-decoration: none;
-    color:white;;
+    color:white;
     padding:5px;
     font-family: 'Libre Franklin', sans-serif;
     font-size:0.9em;
@@ -32,25 +63,26 @@ ul a:hover{
     /* background-color: crimson !important; */
     border-bottom: solid 1px crimson;
 }
+#toogleIcon{
+    /* visibility: hidden; */
+    display: none;
+}
 
-
-@media (max-width:768px){
+@media   (max-width:768px){
     ul{
         flex-direction: column;
-    }
-    footer{
-        display : flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    footer img{
-        height:20px;
-        width:20px;
-        
-        /* flex-grow: 1; */
-    }
-
+    }   
 }
+@media (max-width:500px){
+    
+        #toogleIcon{
+            /* visibility: hidden; */
+            display: block;
+        }
+        ul{
+            display: none;
+        } 
+    }
 footer{
     display : flex;
     flex-direction: row;

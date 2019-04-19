@@ -20,3 +20,25 @@ font-size: 70px;
     font-family: 'Shadows Into Light', cursive;
     font-size: 70px; 
 }    
+
+@media   (max-width:768px){
+    #mainText{ 
+        font-size: 50px; 
+    }  
+    #subText{
+        /* justify-content: center; */
+        /* align-self: flex-start; */
+       
+font-size: 50px;
+    }
+}
+@media (max-width:400px){
+    
+        #toogleIcon{
+            /* visibility: hidden; */
+            display: block;
+        }
+        ul{
+            display: none;
+        } 
+    }

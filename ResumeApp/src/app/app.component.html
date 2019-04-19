@@ -2,24 +2,38 @@
 <html>
 <body>
   <nav>
+      <a (click)=toggle()> <img id ="toogleIcon" style="flex-grow:5" src="../assets/hamburger.svg"></a>
     <ul>
+     
      <a href="#"> <b><i style="color:aqua">Resume</i></b><b><i>Creator</i></b></a>
    
       <a class="nav-link" routerLink="home" routerLinkActive="active"><i class="material-icons">home</i>Home</a>
-       <a class="nav-link" routerLink="info" routerLinkActive="active"><i class="material-icons">info</i>About</a>
+       <a class="nav-link" routerLink="create" routerLinkActive="active"><i class="material-icons">create</i>Create</a>
       <a class="nav-link" routerLink="contact" routerLinkActive="active"> <i class="material-icons">account_circle</i>Contact</a>
       <a class="nav-link" routerLink="viewprof" routerLinkActive="active"> <i class="material-icons">account_circle</i>View Profile</a>
      
       
     </ul>
   </nav>
+  <div id="main">
+  <div id="sidebar">
+      <a class="nav-link"  routerLink="home" routerLinkActive="active"><i class="material-icons">home</i>Home</a>
+      <a class="nav-link" routerLink="create" routerLinkActive="active"><i class="material-icons">create</i>Create</a>
+     <a class="nav-link" routerLink="contact" routerLinkActive="active"> <i class="material-icons">account_circle</i>Contact</a>
+     <a class="nav-link" routerLink="viewprof" routerLinkActive="active"> <i class="material-icons">account_circle</i>View Profile</a>
+  </div>
+  <!-- <mat-sidenav-container class="example-container" >
+      <mat-sidenav mode="side" opened>Sidenav content</mat-sidenav>
+      <mat-sidenav-content>Main content</mat-sidenav-content>
+    </mat-sidenav-container> -->
 
   <router-outlet></router-outlet>
-  <footer>
-    <a href="https://www.facebook.com/prakhar.khare.10"> <img src="../assets/social_mediaicons/facebook online social media by alfredocreates.svg"></a>
-    <a href="https://github.com/Prakhar1995/Resume"> <img src="../assets/social_mediaicons/github social media logo by alfredocreates.svg"></a>
-    <a href="https://www.linkedin.com/in/prakhar-khare-9ba639a4/"> <img src="../assets/social_mediaicons/linked in online social media by alfredocreates.svg"></a>
-   </footer>
+</div>
+      <footer>
+        <a target="blank" href="https://www.facebook.com/prakhar.khare.10"> <img src="../assets/social_mediaicons/facebook online social media by alfredocreates.svg"></a>
+        <a target="blank" href="https://github.com/Prakhar1995/Resume"> <img src="../assets/social_mediaicons/github social media logo by alfredocreates.svg"></a>
+        <a target="blank"href="https://www.linkedin.com/in/prakhar-khare-9ba639a4/"> <img src="../assets/social_mediaicons/linked in online social media by alfredocreates.svg"></a>
+      </footer>
 </body>
 
 </html>

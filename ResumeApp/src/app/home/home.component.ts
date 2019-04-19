@@ -7,13 +7,21 @@ import { Component, OnInit } from '@angular/core';
   styles: [`
   :host {
       flex-grow:1;
+      justify-content:center;
+      align-items: center;
+         display: flex;
   }
 `]
   
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    
+  }
+  createResume=function(){
+    (window.location.href="contact")
+  }
 
   ngOnInit() {
   }

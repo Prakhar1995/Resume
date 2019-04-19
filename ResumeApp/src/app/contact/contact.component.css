@@ -1,0 +1,47 @@
+#contactMain{
+    display:flex;
+    flex-direction: column;
+    /* height:40vh; */
+    justify-content: space-evenly;
+    height:80vh;
+    font-size: 100%;
+    
+}
+
+#contactMain > #prof  {
+    display :flex;
+    flex-direction:column;
+    align-items: center;
+    
+    /* justify-content: space-around; */
+    
+
+  }
+  #contactMain img{
+   
+    margin-top: 15px;
+    height: 20vh;
+    border-radius: 50%;
+    width:20vw;
+    /* align-self: center; */
+  }
+  #images{
+      display :flex;
+      flex-direction: row;
+      width:80vw;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      /* flex-grow: 1; */
+      
+  }
+  #images img
+{
+   
+    height: 10vh;
+    border-radius: 0%;
+    width:10vw;
+    /* flex-grow: 1; */
+}  
+  /* #contactMain > div > b{
+    align-self: center;
+  } */
