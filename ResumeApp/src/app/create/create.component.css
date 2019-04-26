@@ -1,0 +1,3 @@
+.mat-tab-label, .mat-tab-link {
+    color: mat-color(white, text);
+}

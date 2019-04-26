@@ -9,11 +9,7 @@ import { Component, OnInit } from '@angular/core';
     display:flex;
     flex-grow:1;
     align-items:center;
-    flex-direction:column;
-      
-      
-      
-        
+    flex-direction:column;      
   }
 `]
 })

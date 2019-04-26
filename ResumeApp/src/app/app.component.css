@@ -9,6 +9,24 @@ nav >a{
     background-color: crimson;
 
 }
+.mat-drawer{
+    background-color: inherit;
+    width: 150px;
+   
+    
+    
+}
+.mat-drawer-inner-container {
+    display: flex !important;
+    flex-direction: column !important;
+   
+    flex-grow: 1 !important;
+  
+}
+.mat-drawer-inner-container>a{
+    text-decoration: none;
+}
+
 /* .example-container {
     position: absolute;
     top: 0;
@@ -17,11 +35,23 @@ nav >a{
     right: 0;
     background: #eee;
   } */
+  .mat-drawer-content {
+    
+    height: inherit;
+    
+}
   #main{
       display:flex;
       flex-direction: row;
       flex-grow: 1;
+      background-color: inherit;
+      height: inherit;
   }
+  .mat-drawer-container {
+    background-color: inherit;
+    color:white;
+  height: inherit;
+}
   #sidebar{
       height:70vh;
       display:flex;
@@ -29,7 +59,7 @@ nav >a{
       align-self: flex-start;
       /* justify-content: space-around; */
       /* flex-grow: 1; */
-      display: none;
+      /* display: none; */
   }
   #sidebar>a{
       flex-grow:1;
